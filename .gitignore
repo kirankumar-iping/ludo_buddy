@@ -1,5 +1,6 @@
 node_modules
 /nbproject/private/
+nbproject/
 .vscode/
 
 #Laravel Specific files
