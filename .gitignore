@@ -1,0 +1,10 @@
+node_modules
+/nbproject/private/
+.vscode/
+
+#Laravel Specific files
+/vendor
+.env
+/public/.htaccess
+/storage
+storage/*.key

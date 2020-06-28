@@ -1,0 +1,143 @@
+body{
+    font-family: "Lato", sans-serif;
+    background-color: #212838;
+    text-align: justify;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.scrolling-content{
+    height:100%;
+    flex: 1 0 auto;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    top:-70px;
+}
+.dropdown-content li>a, li{
+    color:#003b37;
+}
+.navbar{
+    background-color: transparent; 
+    height:73px;
+    -webkit-box-shadow: 0 0 0 0, 0 0 0 0, 0 0 0 0 !important; 
+     box-shadow: 0 0 0 0, 0 0 0 0, 0 0 0 0 !important;                     }
+.listname{
+    font-weight: 500;
+    height: 47%;
+    color: white;
+    font-size: 17px !important;
+    margin-top: 40px;
+}
+.listname1
+{
+    font-size: 20px;
+    color:black !important;
+}
+.listname2{
+    color: black !important;
+    font-weight: 500 !important;
+}
+.icon{
+    font-size:34px !important; 
+    padding-left: 9px; 
+    color: white;
+    margin-top: 50px;
+    width: 126%;
+}
+.icon1{
+    font-size:34px !important; 
+    color: white;
+    height: 100% !important;
+    margin-top: 40px;
+    padding-left: 15;
+    padding-right: 15;
+   
+}
+.dropdown-content a:hover {background-color: #D9D9D9 !important;}
+.listname1:hover {background-color: #D9D9D9;}
+.listname:hover,.icon:hover, .icon1:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.btn{
+    border: 1px solid black !important;
+    text-transform: none !important;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.btn:hover {
+    background-color: white !important;
+    color:black !important;
+    border: 1px solid black !important;
+    
+}
+.l3{
+    color: white;
+}
+.header{
+    font-size:40px;
+    color:white;
+    border-bottom: 1px solid white;
+    padding-bottom:3px;
+    margin-bottom: 5%;
+
+}
+div{
+    color: white;
+}
+.answer{
+    padding-top:5px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    text-align: justify;
+}
+.question{
+    padding-top:20px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    text-align: justify;
+}
+@media only screen and (max-width:851px){
+    #firstques{
+        margin-top:40% !important; 
+    }
+    .contacticons{
+        padding-top: 8% !important;
+    }
+}
+#firstques{
+    margin-top:150px;
+}
+img{
+    padding-left: 43px;
+}
+b{
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
+}
+.page-footer{
+    padding-top:0;
+}
+.footer-copyright{
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+.maincontent{
+    margin-top: 80px;
+}
+@media only screen and (max-width:992px){
+    .logo{
+        padding-left:0
+    }
+}
+

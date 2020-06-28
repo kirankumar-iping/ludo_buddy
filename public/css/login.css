@@ -1,0 +1,100 @@
+body{
+    font-family: Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 14px;
+    background-color: #D9D9D9;
+    text-align: justify;
+}
+.card {
+    position: relative;
+    margin: .5rem 0 1rem 0;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    bottom: auto;
+    margin-top:10%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px !important;
+}
+.card.card-login {
+    display: flex;
+}
+.card.card-login .card-login-splash {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    
+}
+.card-login-splash
+{
+    max-width: 371.11px;
+    height: 340.6px;
+}
+.card-content
+{
+    width: 63%;
+}
+
+.btn, .btn-large, .btn-small {
+    text-decoration: none;
+    color: #fff;
+    background-color: #324968;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: background-color .2s ease-out;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+}
+.btn:hover {
+    background-color: #324968 !important;
+    }
+.wrapper {
+    position: absolute;
+    bottom: auto;
+    right: auto;
+    color: white;
+}
+@media only screen and (max-width:1093px){
+    .card.card-login {
+        display: block;
+        max-width: 490px;
+    }
+    .card-content{
+        width: 100%;
+    }
+    .submitButton{
+        margin-top: 26px;
+        margin-bottom: 73px;
+    }
+    .card-login-splash{
+        max-width: 490.11;
+    }
+}
+.field-icon {
+    float: right;
+    margin-left: -20px;
+    margin-top: -39px;
+    position: relative;
+    z-index: 2;
+    font-size: large;
+}
+@media only screen and (max-width:992px){
+        .card{
+            margin-top: 2rem !important;
+        }
+        .logo{
+            width: 150px;
+        }
+}
