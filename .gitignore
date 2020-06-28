@@ -4,8 +4,3 @@ nbproject/
 .vscode/
 
 #Laravel Specific files
-/vendor
-.env
-/public/.htaccess
-/storage
-storage/*.key
