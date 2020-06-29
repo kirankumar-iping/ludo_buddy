@@ -37,6 +37,9 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('buy-chips', 'TransactionController@byChips');
     Route::get('redeemchips', 'TransactionController@redeemChips');
     Route::get('transaction', 'TransactionController@transaction');
+    Route::resource('matches', 'MatchesController');
+    Route::post('play_match', 'MatchesController@play');
+    Route::resource('room_code', 'RoomController');
 });
 
 //Auth::routes();
